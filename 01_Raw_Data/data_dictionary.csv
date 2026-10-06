@@ -1,0 +1,14 @@
+Table,Column,Definition
+dim_sku,SKU_ID,Synthetic SKU identifier
+dim_location,Location_ID,Storage location
+dim_location,Location_Type,"BIN, SHELF or PALLET"
+dim_location,Capacity_Units,Synthetic location capacity
+movement_requests,Request_ID,Movement request identifier
+movement_requests,Status,Request status
+stock_movements,Movement_ID,Movement transaction identifier
+stock_movements,Quantity,Units moved
+stock_movements,Movement_Type,Movement classification
+stock_movements,Requested_Timestamp,Request time
+stock_movements,Completed_Timestamp,Completion time when completed
+inventory_snapshot,Quantity_On_Hand,Units at location
+inventory_snapshot,Occupancy_Pct,Stock relative to capacity

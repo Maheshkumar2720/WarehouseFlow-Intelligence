@@ -1,0 +1,9 @@
+Area_ID,Area_Name
+A01,Receiving
+A02,Screening
+A03,Racking
+A04,Repair
+A05,Shipping
+A06,Scrap
+A07,Quality
+A08,Returns
